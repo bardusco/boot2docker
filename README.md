@@ -74,6 +74,8 @@ Goto [How to build](doc/BUILD.md) for Documentation on how to build your own boo
 
 
 ## How to upgrade
-1. Grab the latest iso version from here: https://github.com/steeve/boot2docker/releases and overwrite the old one.
-2. brew update && brew upgrade docker
-3. ./boot2docker stop; ./boot2docker start 
+Grab the latest iso version from here: https://github.com/steeve/boot2docker/releases and overwrite the old one.
+```
+$ brew update && brew upgrade docker
+$ ./boot2docker stop; ./boot2docker start
+```
